@@ -1,7 +1,8 @@
 import logo from "../assets/images/more/logo1.png";
+import bg from "../assets/images/more/15.jpg";
 
 const bgStyle = {
-  backgroundImage: 'url("../assets/images/more/15.jpg")',
+  backgroundImage: `url(${bg})`,
 };
 
 const Header = () => {
