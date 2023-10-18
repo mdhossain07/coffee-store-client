@@ -10,14 +10,14 @@ const Footer = () => {
     <div className="mt-64">
       <footer
         style={bgStyle}
-        className="footer p-10 text-base-content flex flex-col md:flex-row justify-between px-32"
+        className="footer p-10 text-base-content flex flex-col md:flex-row justify-between lg:px-32"
       >
         <div>
           <img className="w-[80px] h-[90px]" src={logo} alt="" />
           <h2 className="text-[#331A15] text-xl font-semibold">
             Espresso Emporium
           </h2>
-          <p className="w-[600px]">
+          <p className="lg:w-[600px]">
             Always ready to be your friend. Come & Contact with us to share your
             memorable moments, to share with your best companion.
           </p>
@@ -59,7 +59,7 @@ const Footer = () => {
           </div>
         </div>
         <div>
-          <h2>Connect With Us</h2>
+          <h2 className="text-xl font-medium">Connect With Us</h2>
           <form>
             <input
               type="text"

@@ -7,10 +7,15 @@ const bgStyle = {
 
 const Header = () => {
   return (
-    <div style={bgStyle}>
-      <div className="flex justify-center items-center gap-10">
-        <img className="w-[80px] h-[90px]" src={logo} alt="" />
-        <h2 className="text-white text-4xl font-semibold">Espresso Emporium</h2>
+    <div>
+      <div style={bgStyle}>
+        {/* Navbar */}
+        <div className="flex justify-center items-center gap-10">
+          <img className="w-[70px] h-[80px]" src={logo} alt="" />
+          <h2 className="text-white text-3xl font-semibold">
+            Espresso Emporium
+          </h2>
+        </div>
       </div>
     </div>
   );
